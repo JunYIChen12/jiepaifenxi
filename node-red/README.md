@@ -1,0 +1,1 @@
+# Node-RED 目录\n\n此目录用于存放 Node-RED 的 flows 与相关配置。\n\n包含文件（本次提交）：\n- flows/takt_collect_v5_local.json  - 极简节拍采集流程 (V5 - 本地时间)\n- flows/takt_api_v5.json           - 提供 /api/takt-logs 的 API 流程 (V5)\n\n使用说明：\n1. 将对应的 JSON 文件导入到 Node-RED 中 (菜单 → 导入)。\n2. 在生产环境请检查并更新数据库连接配置 (postgreSQLConfig)，不要在公开仓库中保留明文密码。\n3. credentials.json 等敏感文件请使用环境变量或密钥管理方案。\n
